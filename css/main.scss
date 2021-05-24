@@ -3,3 +3,24 @@
   margin: 0;
 }
 
+.qwe{
+  &:before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 6px;
+  }
+}
+.ui-icon{
+  background-image: none;
+
+}
+.ui-icon-triangle-1-e{
+  background-position: 0;
+  text-indent: 0;
+}
+.ui-icon-triangle-1-e:before{
+
+}
